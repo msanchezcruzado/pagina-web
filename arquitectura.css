@@ -1,0 +1,77 @@
+*{box-sizing:border-box ; margin: 0;}
+nav{background-color:lightblue ;
+	display:flex ; 
+	justify-content: space-around;
+	 padding: 10px;
+	 font-family: arial,sans-serif;}
+
+nav a{color: white;text-decoration: none;
+text-shadow: 3px 3px 3px black;}
+nav a:hover{color: yellow; font-weight: bold;}
+header{background-image:url(image.jpg); 
+ padding: 100px;
+ background-repeat:no-repeat ;
+	background-size: cover;
+	align-items: center;
+text-shadow: 3px 3px 3px black;}
+
+header h1{color: black;}
+
+header h2{color:blue ;}
+
+/* estilo de servicios*/
+#servicios{background-color: blueviolet;}
+
+.titulo{color:orangered;
+	font-family: italic;
+	text-align: center;
+	text-shadow: 3px 3px 3px black; padding: 10px; }
+
+#contenedor-servicios{display: flex;
+ justify-content: space-around;}
+
+#izquierda,#derecha{width: 40%;}
+
+p{margin-bottom: 10px;}
+
+/*estilo obra*/
+
+.obra{border: 2px solid red;
+ width: 26%;margin-bottom: 20px;}
+ #obras{background-color: lightblue;}
+
+.obra img{width: 100%;}
+
+#contenedor-obras{display:flex ;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap; }
+
+	/*estilo de footer*/
+	footer{background-color:grey ;color: white;
+		text-align: center;padding-top: 20px;}
+
+#contenedor-info{border-top:2px solid white ;
+			padding: 20px; display: flex;
+			justify-content: space-around;}
+
+#enlaces h2{font-weight:bold ;}
+
+#contacte{border:2px solid red ;}
+
+#contacto form{background-color:lightgrey;
+	border-radius: 10px; padding: 10px;}
+
+#contacto{padding-left: 100px; padding-right: 100px;
+ padding-bottom:30px ;}
+
+#contacto input{width:100% ; padding: 10px;
+ border-radius: 5px;
+ 	margin-bottom: 10px;
+ 	 border-radius:1px solid lightgrey;
+ 	 font-size: 1.2em;}
+
+ label{width: 20px;display: block;
+ 	font-weight:bold ;
+ 	color: lightcyan;
+ 	 font-size: 1.2em;} 
